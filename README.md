@@ -45,4 +45,4 @@ hashlib (for generating hashes)
 1. Clone the repository
    ```bash
    git clone https://github.com/Vedant354/file-integrity-Tracker.git
-   cd file-integrity-checker
+   cd FileIntegrityTracker
