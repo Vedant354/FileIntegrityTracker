@@ -3,12 +3,19 @@ A Python-based File Integrity Tracking tool that detects unauthorized file chang
 A simple and user-friendly desktop application built using **Python** and **Tkinter** that allows users to generate and compare cryptographic hash values (SHA-256 and SHA-1) of files, helping ensure **file integrity** and detect unauthorized modifications.
 
 ✅ Features
+
 📁 Select any file from your system
+
 🔐 Generate SHA-256 and SHA-1 hash values
+
 📋 Copy hashes to clipboard
+
 🔄 Compare newly generated hashes with old ones
+
 🟢 Indicates if integrity is **maintained** or 🔴 if it is **lost**
+
 📝 Usable text area for storing or pasting hash values
+
 
 🖼️ Screenshots
 
