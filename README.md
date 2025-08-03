@@ -22,9 +22,14 @@ A simple and user-friendly desktop application built using **Python** and **Tkin
 > <img width="1534" height="969" alt="image" src="https://github.com/user-attachments/assets/d1d76231-3d14-4ca6-a956-f2bd5afa7b5b" />
 
 🛠 Technologies Used
+
 Python 3.x
+
 Tkinter (for GUI)
+
 hashlib (for generating hashes)
+
+
 
 🔍 How It Works
 
