@@ -1,6 +1,10 @@
 # File_Integrity_Tracker
 A Python-based File Integrity Tracking tool that detects unauthorized file changes using SHA-256 hashes. Logs modified, deleted, or new files for audit and security purposes. Designed for SOC/Blue Team scenarios to simulate real-world incident detection.
 A simple and user-friendly desktop application built using **Python** and **Tkinter** that allows users to generate and compare cryptographic hash values (SHA-256 and SHA-1) of files, helping ensure **file integrity** and detect unauthorized modifications.
+A File Integrity Monitoring (FIM) desktop tool that detects unauthorized file changes using SHA-256 hashing, designed for SOC and Blue Team simulations.
+
+## 🧩 Project Type
+Standalone Desktop Application | Security Tool | File Integrity Monitoring (FIM)
 
 ## ✅ Features
 
@@ -62,5 +66,5 @@ hashlib (for generating hashes)
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/Vedant354/file-integrity-Tracker.git
+   git clone https://github.com/Vedant354/FileIntegrityTracker.git
    cd FileIntegrityTracker
