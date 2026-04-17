@@ -6,7 +6,7 @@ A simple and user-friendly desktop application built using **Python** and **Tkin
 
 📁 Select any file from your system
 
-🔐 Generate SHA-256 and SHA-1 hash values
+🔐 Generate SHA-256 and SHA-1 hash values (Note: SHA-1 is included for learning/demo purposes. SHA-256 is recommended for secure use.)
 
 📋 Copy hashes to clipboard
 
@@ -15,6 +15,13 @@ A simple and user-friendly desktop application built using **Python** and **Tkin
 🟢 Indicates if integrity is **maintained** or 🔴 if it is **lost**
 
 📝 Usable text area for storing or pasting hash values
+
+
+## 🔐 SOC Use Case
+This tool simulates File Integrity Monitoring (FIM), used in:
+- Detecting unauthorized file changes
+- Malware persistence detection
+- Compliance monitoring (PCI-DSS, ISO 27001)
 
 
 🖼️ Screenshots
@@ -30,6 +37,9 @@ Tkinter (for GUI)
 hashlib (for generating hashes)
 
 
+## 🧠 Architecture
+- File input → Hash generation → Comparison → Result display
+
 
 🔍 How It Works
 
@@ -39,6 +49,14 @@ hashlib (for generating hashes)
    - Paste the original hash in the provided field.
    - Click **Compare**.
    - The result will tell whether the file's integrity is maintained or lost.
+
+
+## 🚀 Future Improvements
+- Real-time monitoring using watchdog
+- Logging alerts to SIEM (Splunk)
+- Email alert system
+- Scheduled scanning
+
 
 💻 Installation
 
